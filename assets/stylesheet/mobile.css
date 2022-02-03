@@ -1,0 +1,45 @@
+@media only screen and (max-width: 748px) {
+  body {
+    background-color: rgb(218, 243, 252);
+  }
+  header {
+    padding: 8px 24px;
+    flex-direction: column;
+  }
+  .hero {
+    flex-direction: column;
+    padding: 24px;
+  }
+  .hero .hero_content {
+    width: 100%;
+  }
+  .hero .image {
+    order: -1;
+  }
+  .hero .hero_content h1 {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  .hero .hero_content h3 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .business {
+    flex-direction: column;
+    padding: 24px;
+  }
+  .business .business_card {
+    width: 100%;
+    margin: 14px 0;
+  }
+  .business .business_card h3 {
+    font-size: 24px;
+  }
+  .business_images {
+    padding: 24px;
+  }
+  .business_images .business_img_wrapper {
+    width: 100%;
+    border: 2px solid red;
+  }
+}
